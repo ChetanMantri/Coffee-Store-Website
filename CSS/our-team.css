@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f1ed; /* browinish-white */
+  color: #cbb59b; /* light brown text */
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+/* Background image */
+.bg-image {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  object-fit:cover;
+  opacity: 1;
+}
+
+/* Logo top-left */
+.main-logo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 140px;
+}
+
+/* Navigation bar */
+.navbar {
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #efe9e7;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #cbb59b;
+}
+
+.hero-content {
+  position: absolute;
+  top :150px;
+  left :350px;
+  text-align: center;
+  padding: 0px 20px; 
+}
+
+.hero-content h1 {
+  color: #ffffff; /* dark brown heading */
+  font-size: 72px;
+  letter-spacing: 9px;
+  margin-bottom: 20px;
+  /* background-color: #7d776f91; */
+  border-radius: 7px;
+}
+
+.team-section {
+  padding: 60px 20px;
+  background-color: #f9f4f0;
+  text-align: center;
+}
+
+.team-section h2 {
+  color: #4b2e2e;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.team-intro {
+  color: #6e4c4c;
+  margin: 10px 0 40px;
+  font-size: 1.1rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.team-member h3 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #4b2e2e;
+  font-family: 'Playfair Display', serif;
+}
+
+.team-member p {
+  color: #8a6b6b;
+  margin-bottom: 10px;
+}
+
+.team-member .social-icons a {
+  color: #8a6b6b;
+  margin: 0 8px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.team-member .social-icons a:hover {
+  color: #4b2e2e;
+}
+
+.site-footer {
+  background: url('../Images/footer-top-img-1.jpg') no-repeat center center/cover;
+  padding: 60px 30px 30px;
+  color: #fff8e1;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-content {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #e0cba3;
+}
+
+.footer-address h3 {
+  font-size: 24px;
+  margin-top: 25px;
+  color: #f5e6c4;
+}
+
+.footer-address p {
+  font-size: 15px;
+
+  color: #d8c6a5;
+  margin-top: 9px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #e0cba3;
+}
+
+/* Social Icons Styling */
+.social-icons a {
+  color: #f5e6c4;
+  margin-left: 15px;
+  font-size: 20px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .shop-button {
+    padding: 8px 16px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+}
