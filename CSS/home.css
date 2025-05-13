@@ -162,7 +162,7 @@ h1, h2, h3 {
 
 /* The Coffee Herald Section */
 .herald-section {
-  background: url('../Images/new-new-h1-bacground-img-3.jpg') no-repeat center center/cover;
+  background: url('../images/new-new-h1-bacground-img-3.jpg') no-repeat center center/cover;
   padding: 70px 20px;
   color: #3e2723; /* dark brown for text */
 }
@@ -232,7 +232,7 @@ h1, h2, h3 {
 /* Logo Highlight Section */
 .logo-highlight {
   position: relative;
-  background: url('../Images/home-1-slider-image-1.jpg') no-repeat center center/cover;
+  background: url('../images/home-1-slider-image-1.jpg') no-repeat center center/cover;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -301,7 +301,7 @@ h1, h2, h3 {
 
 /* Online Coffee Shop Section */
 .shop-section {
-  background: url('../Images/h1-bacground-img-1.jpg') no-repeat center center/cover;
+  background: url('../images/h1-bacground-img-1.jpg') no-repeat center center/cover;
   padding: 70px 20px;
   color: #3e2723;
 }
@@ -393,7 +393,7 @@ h1, h2, h3 {
 
 /* Contact Banner Section */
 .contact-banner {
-  background: url('../Images/p2-background-img-1.jpg') no-repeat center center/cover;
+  background: url('../images/p2-background-img-1.jpg') no-repeat center center/cover;
   padding: 60px 30px;
   color: #3e2723;
 }
@@ -439,7 +439,7 @@ h1, h2, h3 {
 
 /* Footer Section */
 .site-footer {
-  background: url('../Images/footer-top-img-1.jpg') no-repeat center center/cover;
+  background: url('../images/footer-top-img-1.jpg') no-repeat center center/cover;
   padding: 60px 30px 30px;
   color: #fff8e1;
   font-family: 'Playfair Display', serif;

@@ -222,7 +222,7 @@ h1, h2, h3 {
 
 /* Footer Section */
 .site-footer {
-  background: url('../Images/footer-top-img-1.jpg') no-repeat center center/cover;
+  background: url('../images/footer-top-img-1.jpg') no-repeat center center/cover;
   padding: 60px 30px 30px;
   color: #fff8e1;
   font-family: 'Playfair Display', serif;
